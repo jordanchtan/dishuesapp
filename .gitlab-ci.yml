@@ -1,0 +1,68 @@
+image: node:4.2.2
+
+services:
+  - postgres:9.5.0
+  
+stages:
+  - test
+  - deploy-back
+  - deploy-front
+
+  ##- deploy-test
+
+before_script:
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIV_KEY" | tr -d '\r' | ssh-add - > /dev/null
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+  - ssh-keyscan 146.169.45.5 >> ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
+  - export DB_TEST_PASS=test
+  - export DB_TEST_USER=test
+
+  
+all_tests:
+  stage : test
+  script:
+   - cd dishoos-backend
+   - npm install
+   - npm test
+   - cd ..
+   - cd dishoos-mobile
+   - npm install
+   
+   
+deploy-front:
+  stage : deploy-front
+  script:
+   - cd /home/server/dishues/dishoos-mobile
+   - npm install
+   - sudo exp publish
+  only:
+   - master
+   
+deploy-back:
+  stage : deploy-back
+  script:
+    - cd /home/server/
+    - sudo rm -r -d dishues
+    - git clone https://oauth2:$RISHI_KEY@gitlab.doc.ic.ac.uk/g1727133/dishues.git
+    - cd /home/server/dishues/dishoos-backend
+    - npm install
+    - knex migrate:latest --env prod
+    # - knex seed:run --env prod
+    - sudo forever list
+    - sudo forever stop 0
+    - sudo forever start index.js
+    
+  only:
+    - master
+    
+##deploy-test:
+  ##stage: deploy-test
+  ##script:
+  
+    ##- ssh rnr116@146.169.45.5 "git clone https://oauth2:$RISHI_KEY@gitlab.doc.ic.ac.uk/g1727133/dishues.git"
+    
+   

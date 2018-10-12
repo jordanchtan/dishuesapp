@@ -1,0 +1,43 @@
+1.
+
+    4 freedoms are: to run as you wish; study how it works and change it; redistribute copies; distribute modified copies
+    
+    1. Licence - No violations(?)
+    2. Definition of Software - Does not seem to violate any
+    3. Permitted use - No freedom to run as you wish (only for scientific purposes, and not for commercial use)
+    4. Copyright and Distribution - "You're not allowed to sell ..." & "You're not allowed to distribute ..." violates freedom to distribute(?); 
+                                  - Also violates freedom to distribute modified copies.
+    5. Modifications - "Modifications  may  include  revised  versions  of  subroutines or modules, but must not constitute a working model on their own"
+                     - "Error fixes and “Software” modifications must be communicated to the coordinator of MPI-M model development/ model integration so that they can be used to improve the “Software”
+                     - "If you develop independent new components of the models, you may cover them with your  own  licence  agreement  as  long  as  the  terms  of  this  licence  are  not  violated.  In particular,  you  must  make  your  code  available  free  of  charge,  and  you  must  grant equal access rights to MPI-M"
+    6. Acknowledgements - No violations(?) [I (anthony) disagree.
+                            ...An artifact of the freedom to change is  
+                            ...'If you do publish your changes, you should not be required to notify anyone in particular, or in any particular way']
+                         Violates freedom to redistribute. This one is a bit of a grey area perhaps as we are talking about results of the software usage
+                         rather than the software itself to be fair.
+    7. Termination - Violates freedom to run as violation of terms leads to terminate of licence/usage, which could happen due to to other rules which violate 4 freedoms. 
+    8. Fees - No violations
+    9. Proprietary Rights - No violations
+    10. Disclaimer of warranty - No violations
+    11. Limitation of Liability - No violations
+    12. Support/Modifications - No violations
+    13. Controlling Law and Severability - No violations
+
+2a
+    - Individual knows what data is collected about them - violated by Kogan who did not fully inform users of what data would be collected.
+    - Individual gives clear unambigious consent - violated by Cambridge Analytica and Kogan as they got data without consent. Also violated by Facebook for not taking precautions to prevent it.
+    - Individual must be aware of what the data will be used for - violated by Cambridge Analytica and Kogan as they did not inform users it would be used for political purposes.
+2b.
+    - The fundamental issue is that Facebook essentially pushed the problem onto the third party with its agreements. Under GDPR, Facebook is responsible as well as it is considered a "controller".
+     It should have reported the misuse of data to its users and the relevant authority (The ICO in the UK). In addition, this should include a tool to find out whether a user was effected by the breach.
+     Furthermore, Facebook should have put more resources into ensuring all the data held by Cambridge Analytica was deleted.
+    
+2c.
+    - Here Facebook is the controller.
+    - check users are gdpr compliant
+    - when signing up to use api, they must accept some sort of policy that requires that they do not misuse the data in accordance with gdpr
+    - Have a team or individual review what the third party is using the data for and what is collected and that it meets the legitimate interest clause of gdpr
+    - There should be an api for users to remove consent to third party. An app which has no uses of this endpoint should be reviewed.
+    - In addition, an API endpoint that will redirect to a facebook page where a user has to login and explicity give consent as required by gdpr.
+    - This facebook page will say exactly what data is being shared as well as why.
+    - Giving and removing consent and all other privacy settings should be simple to use.

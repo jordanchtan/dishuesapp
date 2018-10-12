@@ -1,0 +1,27 @@
+Dishoos improvements/Fixes:
+
+Search bar hard to see so changed colour.
+Keyboard issue
+Search results page now has search bar to make things clearer.
+
+
+App Functionality Problems:
+    [4] Move filter to top
+    [2] Swipeable menu 
+    [3] Restaurant search layout design
+    [5] Add review page design
+    -- [1] Not obvious how to add review
+    [4] Review card layout (or we choose to remove title from review)
+    [3] Menu categorisation system: (swipeable may not be best esp for many items, consider alternative options)
+    -- [2] In add review have extra input example
+
+Problem solution issues:
+    [1] Dish specific search functionality
+    [1] Star rating when seeing menu
+    [3] Review system: how does star rating alone help me choose a dish
+    [4] Possibility of moving reviews, but may be hard to do well
+    [3] See friends recommendations 
+    [2] Dish search for multiple at once 
+
+
+[1-5] Priorities: 1 is the highest Priority (timing and usefulness)

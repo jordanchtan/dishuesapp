@@ -1,0 +1,98 @@
+Week 3 iteration 1:
+
+Jiahao:
+
+    Keyboard issue
+    Swipeable menu
+    Spacing issue for header of menu (dropdown instead for long categories)
+    Understand interface of reviews
+    Move filter in reviews to top 
+    Black text on blue background hard to read
+    Extra header in add review
+    Textinput should have fiff example words
+    Submit review should lead to prev page of reviews
+    Importance of search functionality (dish specific)
+
+David:
+
+    Change the fonts
+    Lower underlines under text
+    Top headings line up w image
+    Images smaller so more white space
+    
+Gerald:
+
+    Keyboard issue
+    Orange color is ugly 
+    Font is ugly
+    Likes scrolling interface
+    Star rating even when seeing menu
+    Sort by can be on top instead of bottom
+    Add review is user friendly
+    Add review page is simple and clean but keyboard issue again somewhat
+    Video background is nice
+
+Jack:
+    Change font
+    Restaurant search layout isn't designed well
+    Change colours in reviews list
+    Redesign add review page
+    The rest is intuitively and well designed
+
+Grant:
+    Love the layout
+    Change fonts
+
+John:
+    Not a fan of the Restauarant search design
+    Add review page could be more clear and better designed
+    Change colours of review list
+
+Nikita:
+    Layout is nice
+    Change font to be consistent
+    
+
+ David:
+    Takes a long time to get to any reviews
+    Review system is not super helpful
+    It’s only useful if you already know what restaurant you’re going to
+
+Samantha
+    Home page: not obvious how to search right away
+    Have user reviews sooner
+    An overall restaurant review would be useful
+    Not obvious how to add review (plus button)
+    Swipe down on reviews rather than sideways more natural 
+    Review card layout confusing, e.g. expects names on top
+
+
+Restaurant owner:
+App idea:
+
+-Having a most popular/most valuable selection of dishes at the top of menu may 
+be useful to prevent information overwhelm 
+
+
+Feedback on idea:
+
+The restaurant owner said that the core idea of reviews for individual dishes 
+within the menu was a good idea, though he said it was more suitable for the 
+younger generation (our target audience). 
+
+In terms of dish search, he said that as the current idea stands 
+(searching for an individual dish), it would be more appropriate and useful for
+individual people eating out. It would be less useful for groups as different
+people would want different dishes. He suggested expanding the search to 
+potentially include several dishes at once, as well as having a variety of
+criteria such as price, proximity etc.
+
+He seemed most interested in a potential business side, where we could provide
+analytics of a restaurant’s dishes and provide it to the restaurant owner. 
+For example if there are common complaints or points of inconsistency. He
+mentioned this would be especially useful for large chains in their R&D efforts, 
+as well as for quality control. He said that restaurant owners are always 
+looking for user feedback to improve their business, but conventional methods of
+data collection such as paper surveys do not provide data on a large scale or 
+provide easily accessible analytics.
+

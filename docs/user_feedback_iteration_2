@@ -1,0 +1,24 @@
+Jiahao:
+    - UI Improvement is a good thing
+    - Really likes swipeable menu
+    - Menu header needs improvement to recenter the titles
+    - Latest/Most Helpful button is awkward, putting it at the top may be better
+
+Metrics at Rocca:
+    Time taken from searching for restaurant to just before add review (i.e time taken reviewing the available dishes).
+    
+    initial timings:
+        User 1 (Vegetarian): 01:12
+        User 2 : 00:46
+        
+    Iteration 1:
+        User 1 (Vegetarian): 00:57
+        User 3: 00:43
+        
+    Iteration 2:
+        User 4: 00:44
+        
+    Considerations:
+        - Lack of suitable reviews
+        - Small sample size
+        - Different personalities/people

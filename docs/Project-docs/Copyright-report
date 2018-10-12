@@ -1,0 +1,52 @@
+Libraries:
+	"nachos-ui"
+	"native-base"
+	"react"
+	"react-native"
+	"react-native-elements"
+	"react-native-google-places"
+	"react-native-image-slider"
+	"react-native-material-dropdown"
+	"react-native-modal-dropdown"
+	"react-native-modalbox"
+	"react-native-snap-carousel"
+	"react-native-star-rating"
+	"react-native-vector-icons"
+	"react-native-video"
+	"react-native-swiper"
+	"react-navigation"
+	"typeface-roboto"
+	"cors"
+    "express"
+    "g"
+    "knex"
+    "objection"
+    "pg"
+
+Videos:
+    "https://storage.googleapis.com/coverr-main/mp4/Night-BBQ.mp4"
+    
+Photos:
+    'https://media-cdn.tripadvisor.com/media/photo-s/09/a2/9f/50/nando-s.jpg'
+    'https://metrouk2.files.wordpress.com/2016/10/sunset-burger.jpg?w=748&h=550&crop=1'
+    'https://media-cdn.tripadvisor.com/media/photo-s/05/5c/b1/d0/nando-s.jpg'
+    'https://media-cdn.tripadvisor.com/media/photo-s/06/a0/31/d0/nando-s.jpg'
+    'https://media-cdn.tripadvisor.com/media/photo-s/07/44/8f/48/nando-s.jpg'
+    'https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e813bc9e93c2b7ede92476a3eddf3606&auto=format&fit=crop&w=1050&q=80'
+    'http://hellojoburg.co.za/wp-content/uploads/2016/11/nandos-new-fino-platter1.jpg'
+    'https://images.unsplash.com/photo-1520238861346-a49993df0e69?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f8247a715bd04208a03ba0244e26f2ad&auto=format&fit=crop&w=1050&q=80'
+    'https://images.unsplash.com/photo-1494862121583-9711ee30fb0b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e8a4329a5bf40f6f61a59c6a6e5a01e&auto=format&fit=crop&w=1050&q=80'
+Leaflet:
+    'https://unsplash.com/photos/gb8XxgUx8m0'
+
+
+All the libraries above are licensed for free use with no restrictions on commercial usage.
+
+Other legal considerations include:
+  - Trademarking the name and logo.
+  - Copyrighting the source code. 
+  - Incorporating a Terms of Use policy as it reduces the risk of being sued for having a negative impact on a restaurant being reviewed.
+  - Conversely, ensuring that users agree to not falsify data (eg bots to boost restaurant's ratings)
+  - Maintaining a privacy policy as the app has user accounts. This should also be in accordance with GDPR.
+  - Confidentiality of data in order to not be sued for losing personal data to hacks.
+  - Reviewing if the data submitted by users are owned by Dishoos
